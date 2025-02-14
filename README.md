@@ -45,7 +45,7 @@ app.get("/", async (c) => {
       <body>
         <h1>Hello, world!</h1>
       </body>
-    </html>
+    </html>,
   );
 });
 
