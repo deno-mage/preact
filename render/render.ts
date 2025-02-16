@@ -1,6 +1,6 @@
 import type { JSX } from "preact";
 import { renderToStringAsync } from "preact-render-to-string";
-import type { MageContext } from "@mage/app";
+import type { MageContext } from "./types.ts";
 
 /**
  *  Render JSX to HTML and serve it.
