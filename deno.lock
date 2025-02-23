@@ -22,6 +22,7 @@
     "jsr:@std/path@^1.0.8": "1.0.8",
     "jsr:@std/streams@^1.0.9": "1.0.9",
     "jsr:@std/testing@^1.0.8": "1.0.9",
+    "npm:@preact/signals@^2.0.1": "2.0.1_preact@10.26.0",
     "npm:preact-render-to-string@^6.5.13": "6.5.13_preact@10.26.0",
     "npm:preact@^10.25.4": "10.26.0"
   },
@@ -120,6 +121,16 @@
     }
   },
   "npm": {
+    "@preact/signals-core@1.8.0": {
+      "integrity": "sha512-OBvUsRZqNmjzCZXWLxkZfhcgT+Fk8DDcT/8vD6a1xhDemodyy87UJRJfASMuSD8FaAIeGgGm85ydXhm7lr4fyA=="
+    },
+    "@preact/signals@2.0.1_preact@10.26.0": {
+      "integrity": "sha512-f9p/utMgttPb9bJ+UgRBkTDZ9uQiZfX1/gV3pXGWz+yGNQj8MrnG55Xo8MAG4IHcb5UXQO6tvt9ZlsM4A2j+Rw==",
+      "dependencies": [
+        "@preact/signals-core",
+        "preact"
+      ]
+    },
     "preact-render-to-string@6.5.13_preact@10.26.0": {
       "integrity": "sha512-iGPd+hKPMFKsfpR2vL4kJ6ZPcFIoWZEcBf0Dpm3zOpdVvj77aY8RlLiQji5OMrngEyaxGogeakTb54uS2FvA6w==",
       "dependencies": [
@@ -139,6 +150,7 @@
       "jsr:@std/http@^1.0.13",
       "jsr:@std/path@^1.0.8",
       "jsr:@std/testing@^1.0.8",
+      "npm:@preact/signals@^2.0.1",
       "npm:preact-render-to-string@^6.5.13",
       "npm:preact@^10.25.4"
     ]
